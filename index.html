@@ -15,4 +15,52 @@
       color: white;
       height: 100vh;
       display: flex;
-      justify
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .welcome-box {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 25px;
+      background: #ffffff;
+      color: #4facfe;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e0f7ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-box">
+    <h1>Welcome!</h1>
+    <p>Thanks for visiting our site. We're happy to have you here.</p>
+    <button class="btn">Get Started</button>
+  </div>
+</body>
+</html>
